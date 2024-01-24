@@ -10,17 +10,19 @@
   <meta content="" name="keywords">
 
   {% load static %}
-    <link href="{% static 'img/favicon.png' %}" rel="icon">
-    <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link href="{% static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
-    <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
-    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link href="{% static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
 
 </head>
@@ -41,8 +43,9 @@
             <a href="{% url 'index' %}">Home</a>
           </li>
 
-          <li><a  href="{% url 'about' %}">About</a></li>
-          <li class="dropdown"><a href="{% url 'service' %}"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li class="dropdown"><a href="{% url 'service' %}"><span>Services</span> <i
+                class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{% url 'service_faculty' %}">Faculty Services</a></li>
               <li><a href="{% url 'service_student' %}">Student Services</a></li>
@@ -51,7 +54,7 @@
           <li><a href="{% url 'event' %}">Events</a></li>
           <li><a href="{% url 'announcement' %}">Announcements</a></li>
           <li><a href="{% url 'contact' %}">Contact us</a></li>
-          
+
       </nav><!-- .navbar -->
 
       <a href="{% url 'service' %}" class="get-started-btn">Get Started</a>
